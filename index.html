@@ -10,8 +10,8 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
   <!-- Custom styles for this template -->
-  <!-- <link href="assets/css/styles.css" rel="stylesheet"> -->
-  <!-- <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,600|Raleway+Dots" rel="stylesheet"> -->
+  <link href="assets/css/styles.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700|Roboto" rel="stylesheet">
 
   <!-- jQuery Library -->
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
@@ -23,7 +23,7 @@
         <!-- Main jumbotron for a primary marketing message or call to action -->
         <div class="jumbotron">
           <div class="container">
-            <h1 class="text-center">New York Times Search</h1>
+            <h1 class="text-center"><i class="far fa-newspaper"></i> New York Times Search</h1>
           </div>
         </div>
   
@@ -33,7 +33,7 @@
             <div class="col-md-12">
                 <div class="card" style="width: 100%">
                     <div class="card-header">
-                      Search Properties
+                        <i class="fas fa-search"></i> Search Parameters
                     </div>
                     <form>
                         <div class="form-group">
@@ -57,18 +57,19 @@
                               <input type="text" class="form-control" id="endYear" placeholder="">
                             </div>
 
-                            <button id="search" class="btn btn-primary" type="submit">Search</button> <input class="btn btn-primary" type="reset" value="Reset">
+                            <button class="btn btn-primary" type="submit" id="search-btn"><i class="fas fa-search"></i> Search</button> <input class="btn btn-primary" type="reset" value="Clear Results">
                       </form>
 
                   </div>
             </div>
           </div>
   
+
           <div class="row">
               <div class="col-md-12">
                   <div class="card" style="width: 100%">
                       <div class="card-header">
-                            Top Articles
+                          <i class="fas fa-align-justify"></i> Top Articles
                       </div>
                       
                       <div id="article-list">this is where the divs go...</div>
@@ -76,14 +77,14 @@
                     </div>
               </div>
             </div>
+
+
         </div> <!-- /container -->
-
+  
       </main>
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery.js"></script>
 
-    <!-- Javascript -->
-    <script src="assets/javascript/stuff.js"></script>
+      <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+      <script src="assets/javascript/stuff.js"></script>
 
 </body>
 </html>

@@ -1,0 +1,37 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+.form-group {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+
+button {
+  margin:1rem;
+}
+
+.row {
+  padding-bottom: 2rem;
+}
+
+#article-list {
+  margin:1rem;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+ font-size:  5rem;
+}
+
+.jumbotron {
+  background: #233257;
+  color: #fff;
+}
+
+.card-header {
+  background: #303E4E;
+  font-weight: 700;
+  color: #fff;
+}
