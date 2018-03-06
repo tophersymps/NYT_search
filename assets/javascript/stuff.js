@@ -1,5 +1,6 @@
-$("#search").on("click", function() {
+$("#search").on("click", function(event) {
     var recordNum = document.getElementById("recordNum").value;
+    console.log(recordNum);
     var startYear = document.getElementById("startYear").value;
     var endYear = document.getElementById("endYear").value;
     
