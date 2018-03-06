@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>New York Times Search</title>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <!-- Custom styles for this template -->
+  <!-- <link href="assets/css/styles.css" rel="stylesheet"> -->
+  <!-- <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,600|Raleway+Dots" rel="stylesheet"> -->
+
+  <!-- jQuery Library -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <main role="main">
+
+        <!-- Main jumbotron for a primary marketing message or call to action -->
+        <div class="jumbotron">
+          <div class="container">
+            <h1 class="text-center">New York Times Search</h1>
+          </div>
+        </div>
+  
+        <div class="container">
+          <!-- Example row of columns -->
+          <div class="row">
+            <div class="col-md-12">
+                <div class="card" style="width: 100%">
+                    <div class="card-header">
+                      Search Properties
+                    </div>
+                    <form>
+                        <div class="form-group">
+                          <label for="exampleFormControlInput1">Search Term</label>
+                          <input type="text" class="form-control" id="searchTerm" placeholder="">
+                        </div>
+                        <div class="form-group">
+                          <label for="exampleFormControlSelect1">Number of records to retrieve:</label>
+                          <select class="form-control" id="records">
+                            <option>1</option>
+                            <option>5</option>
+                            <option>10</option>
+                          </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Start Year (Optional):</label>
+                            <input type="text" class="form-control" id="startYear" placeholder="">
+                          </div>
+                          <div class="form-group">
+                              <label for="exampleFormControlInput1">End Year (Optional):</label>
+                              <input type="text" class="form-control" id="endYear" placeholder="">
+                            </div>
+
+                            <button id="search" class="btn btn-primary" type="submit">Search</button> <input class="btn btn-primary" type="reset" value="Reset">
+                      </form>
+
+                  </div>
+            </div>
+          </div>
+  
+          <div class="row">
+              <div class="col-md-12">
+                  <div class="card" style="width: 100%">
+                      <div class="card-header">
+                            Top Articles
+                      </div>
+                      
+                      <div id="article-list">this is where the divs go...</div>
+                      
+                    </div>
+              </div>
+            </div>
+        </div> <!-- /container -->
+
+      </main>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+
+    <!-- Javascript -->
+    <script src="stuff.js"></script>
+
+</body>
+</html>
