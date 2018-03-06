@@ -1,5 +1,5 @@
 $("#search").on("click", function() {
-    var recordNum = 5;
+    var recordNum = document.getElementById("recordNum").value;
     var startYear = document.getElementById("startYear").value;
     var endYear = document.getElementById("endYear").value;
     
